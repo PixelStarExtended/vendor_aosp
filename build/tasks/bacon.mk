@@ -26,13 +26,21 @@ bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ./vendor/aosp/build/tasks/createjson.sh $(TARGET_DEVICE) $(PRODUCT_OUT) $(CUSTOM_VERSION).zip $(PixelStarext_BASE_VERSION)
 	@echo -e ${CL_CYN}""${CL_CYN}
 	@echo -e ${CL_CYN}""${CL_CYN}
-	@echo -e ${CL_CYN}"  ____ _____  _______ _     ____ _____  _    ____   "${CL_CYN}
-	@echo -e ${CL_CYN}" |  _ \_ _\ \/ / ____| |   / ___|_   _|/ \  |  _ \  "${CL_CYN}
-	@echo -e ${CL_CYN}" | |_) | | \  /|  _| | |   \___ \ | | / _ \ | |_) | "${CL_CYN}
-	@echo -e ${CL_CYN}" |  __/| | /  \| |___| |___ ___) || |/ ___ \|  _ <  "${CL_CYN}
-	@echo -e ${CL_CYN}" |_|  |___/_/\_\_____|_____|____/ |_/_/   \_\_| \_\ "${CL_CYN}
+	@echo -e ${CL_CYN}"╔═══╦══╦═╗╔═╦═══╦╗──╔═══╦════╦═══╦═══╗"${CL_CYN}
+	@echo -e ${CL_CYN}"║╔═╗╠╣╠╩╗╚╝╔╣╔══╣║──║╔═╗║╔╗╔╗║╔═╗║╔═╗║"${CL_CYN}
+	@echo -e ${CL_CYN}"║╚═╝║║║─╚╗╔╝║╚══╣║──║╚══╬╝║║╚╣║─║║╚═╝║"${CL_CYN}
+	@echo -e ${CL_CYN}"║╔══╝║║─╔╝╚╗║╔══╣║─╔╬══╗║─║║─║╚═╝║╔╗╔╝"${CL_CYN}
+	@echo -e ${CL_CYN}"║║──╔╣╠╦╝╔╗╚╣╚══╣╚═╝║╚═╝║─║║─║╔═╗║║║╚╗"${CL_CYN}
+	@echo -e ${CL_CYN}"╚╝──╚══╩═╝╚═╩═══╩═══╩═══╝─╚╝─╚╝─╚╩╝╚═╝"${CL_CYN}
+	@echo -e ${CL_CYN}"╔═══╗──╔╗────────╔╗────╔╗"${CL_CYN}
+	@echo -e ${CL_CYN}"║╔══╝─╔╝╚╗───────║║────║║"${CL_CYN}
+	@echo -e ${CL_CYN}"║╚══╦╗╠╗╔╬══╦═╗╔═╝╠══╦═╝║"${CL_CYN}
+	@echo -e ${CL_CYN}"║╔══╩╬╬╣║║║═╣╔╗╣╔╗║║═╣╔╗║"${CL_CYN}
+	@echo -e ${CL_CYN}"║╚══╦╬╬╣╚╣║═╣║║║╚╝║║═╣╚╝║"${CL_CYN}
+	@echo -e ${CL_CYN}"╚═══╩╝╚╩═╩══╩╝╚╩══╩══╩══╝"${CL_RST}
 	@echo -e ${CL_CYN}""${CL_CYN}
 	@echo -e ${CL_CYN}"===========-Package Completed-==========="${CL_RST}
+	@echo -e ${CL_CYN}"===========-Enjoy Experience-==========="${CL_RST}
 	@echo -e ${CL_BLD}${CL_YLW}"Zip: "${CL_YLW} $(CUSTOM_TARGET_PACKAGE)${CL_RST}
 	@echo -e ${CL_BLD}${CL_YLW}"MD5: "${CL_YLW}" `cat $(CUSTOM_TARGET_PACKAGE).md5sum | cut -d ' ' -f 1` "${CL_RST}
 	@echo -e ${CL_BLD}${CL_YLW}"SHA256: "${CL_YLW}" `sha256sum $(CUSTOM_TARGET_PACKAGE) | cut -d ' ' -f 1` "${CL_RST}

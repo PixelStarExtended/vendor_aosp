@@ -22,11 +22,11 @@ endif
 
 # Versioning props
 ADDITIONAL_SYSTEM_PROPERTIES  += \
-    org.pixelstar.version=$(PixelStar_BASE_VERSION) \
-    org.pixelstar.version.display=$(CUSTOM_VERSION) \
-    org.pixelstar.build_date=$(CUSTOM_BUILD_DATE) \
-    org.pixelstar.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.pixelstar.build_type=$(CUSTOM_BUILD_TYPE) \
-    org.pixelstar.codename=$(PixelStar_BASE_VERSION) \
-    org.pixelstar.build_version=$(PixelStar_BUILD_VERSION) \
-    ro.pixelstar.maintainer=$(PIXELSTAR_MAINTAINER)
+    org.pixelstarext.version=$(PIXELSTAR_BASE_VERSION) \
+    org.pixelstarext.version.display=$(CUSTOM_VERSION) \
+    org.pixelstarext.build_date=$(CUSTOM_BUILD_DATE) \
+    org.pixelstarext.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.pixelstarext.build_type=$(CUSTOM_BUILD_TYPE) \
+    org.pixelstarext.codename=$(PIXELSTAR_BASE_VERSION) \
+    org.pixelstarext.build_version=$(PIXELSTAR_BUILD_VERSION) \
+    ro.pixelstarext.maintainer=$(PIXELSTAR_MAINTAINER)

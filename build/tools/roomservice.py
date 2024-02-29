@@ -46,8 +46,8 @@ custom_local_manifest = ".repo/local_manifests/snippets/pixelstar.xml"
 custom_fallback_revision = '14'
 uses_fallback_revision = False
 custom_dependencies = "aosp.dependencies"
-org_manifest = "pixelstar-devices"  # leave empty if org is provided in manifest
-org_display = "PixelStar-Devices"  # needed for displaying
+org_manifest = "pixelstarext-devices"  # leave empty if org is provided in manifest
+org_display = "PixelStarext-Devices"  # needed for displaying
 
 github_auth = None
 
